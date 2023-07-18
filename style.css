@@ -150,3 +150,77 @@ button{
     
 
 }
+
+
+
+
+
+
+
+
+.card{
+    width: 280px;
+    height: 200px;
+    margin-left: 15px;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+}
+.game-contant{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.game-head{
+    margin-right: 120px;
+}
+.game-des{
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.horse-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.horse-contant{
+    text-align: center;
+    margin-left: 150px;
+}
+.horse-contant p{
+    width: 40%;
+    margin: auto;
+}
+.horse-img{
+    padding-right: 70px;
+}
+.profile{
+    margin-right:120px ;
+    width:40% ;
+    margin-top: -200px;
+    
+}
+.cover{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.turn-point{
+    margin-left: 40px;
+}

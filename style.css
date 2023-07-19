@@ -197,27 +197,6 @@ button{
 .funny{
     color:violet ;
 }
-.foot-img{
-    display: flex;
-    justify-content: center;
-    margin-top:40px ;
-    margin-bottom: 60px;
-    
-    
-}
-.mini-logo{
-    margin-left: 60px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    
-}
-
-
-
-
-
-
 
 
 
@@ -323,4 +302,70 @@ footer{
     color: white;
     margin-top: 50px;
     padding:60px 20px ;
+}
+
+.foot-img{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+    margin-bottom: 60px;
+    
+    
+}
+.mini-logo{
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 577px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-contant{
+        flex-direction: column;
+
+    }
+    .nav-contant > ul{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .group-container{
+        flex-direction: column;
+    }
+    .group-contant{
+        width: 100%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        margin:40% ;
+    }
+    .horse-container{
+        flex-direction: column;
+    }
+    .action-container{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+    }
+        
+    
+    
+
+}
+    
 }

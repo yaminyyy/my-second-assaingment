@@ -188,11 +188,14 @@ button{
     margin-bottom: 50px;
 }
 .game-head{
-    margin-right: 120px;
+    font-size: 2rem;
 }
 .game-des{
-    margin-left: 130px;
+    
     margin-top: 15px;
+}
+.funny{
+    color:violet ;
 }
 
 
@@ -235,6 +238,9 @@ button{
 }
 .turn-point{
     margin-left: 40px;
+}
+.instant{
+    color: red;
 }
 
 

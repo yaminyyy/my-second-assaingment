@@ -77,7 +77,12 @@
 }
 .banner-tittle{
     font-size:2rem ;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
+}
+.goat{
+    font-size: 4rem;
+    color: tomato;
+    margin-bottom: 40px;
 }
 .btn-secondary{
     background-color:orchid;
@@ -137,9 +142,15 @@ button{
     margin-left: 280px;
     margin-bottom: 10px;
 }
+.group-container h2{
+    color: violet;
+    margin-left: 180px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
 .group-contant p{
     margin-left: 30px;
-    font-style: italic;
+    
 }
 .group-contant h5{
     
@@ -199,6 +210,7 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 80px;
 }
 .horse-contant{
     text-align: center;
@@ -223,4 +235,47 @@ button{
 }
 .turn-point{
     margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.action-box{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+.action-container{
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin:auto ;
+    padding:30px 120px ;
+    background-color:whitesmoke;
+}
+.action-box:hover{
+    border: 2px solid red;
+    color: red;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.foot-contant{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    width: 50%;
+    margin: auto;
 }

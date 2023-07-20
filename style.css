@@ -44,7 +44,7 @@
     margin-left: 15px;
     padding: 10px;
     border: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 
@@ -81,7 +81,9 @@
 }
 .goat{
     font-size: 4rem;
-    color: tomato;
+    background-image: linear-gradient(to bottom,red,violet);
+    color: transparent;
+    -webkit-background-clip: text;
     margin-bottom: 40px;
 }
 .btn-secondary{
